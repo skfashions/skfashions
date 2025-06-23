@@ -1,8 +1,8 @@
 // Product data - Add your products here
 const products = [
     {
-        name: "Wireless Headphones",
-        image: "https://github.com/skfashions/skfashions/blob/main/Images/SK1.jpeg?w=400&h=300&fit=crop",
+        name: "Test Image",
+        image: "https://github.com/skfashions/skfashions/blob/main/Images/SK1.jpeg",
         description: "High-quality wireless headphones with noise cancellation."
     },
     {
