@@ -2,7 +2,7 @@
 const products = [
     {
         name: "Test Image",
-        image: "https://raw.githubusercontent.com/skfashions/skfashions/main/Images/SK1.jpeg"",
+        image: "Images/SK1.jpeg",
         description: "High-quality wireless headphones with noise cancellation."
     },
     {
