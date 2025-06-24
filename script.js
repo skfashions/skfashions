@@ -44,7 +44,7 @@ function createProductCard(product) {
     card.className = 'product-card';
     
     card.innerHTML = `
-        <div class="product-image">
+        <div class="product-image" onclick="openModal('${product.image}')">
             <img src="${product.image}" alt="${product.name}" loading="lazy">
         </div>
         <div class="product-info">
@@ -65,3 +65,31 @@ function addProduct(name, image, description) {
     });
     loadProducts();
 }
+
+// Modal functions
+function openModal(imageSrc) {
+    const modal = document.getElementById('imageModal');
+    const modalImg = document.getElementById('modalImage');
+    modal.style.display = 'block';
+    modalImg.src = imageSrc;
+}
+
+function closeModal() {
+    document.getElementById('imageModal').style.display = 'none';
+}
+
+// Close modal when clicking outside image or on close button
+document.addEventListener('DOMContentLoaded', function() {
+    loadProducts();
+    
+    const modal = document.getElementById('imageModal');
+    const closeBtn = document.getElementsByClassName('close')[0];
+    
+    closeBtn.onclick = closeModal;
+    
+    modal.onclick = function(event) {
+        if (event.target === modal) {
+            closeModal();
+        }
+    };
+});
