@@ -1,34 +1,24 @@
-// Product data - Add your products here
+// Fashion products for SK Fashions
 const products = [
     {
-        name: "Test Image",
-        image: "https://github.com/skfashions/skfashions/blob/3adad46999567677a67f36dd990824d5d92b7082/Images/SK1.jpeg",
-        description: "High-quality wireless headphones with noise cancellation."
+        name: "Designer Collection 1",
+        image: "Images/SK1.jpeg",
+        description: "Elegant designer piece from our premium collection."
     },
     {
-        name: "Smart Watch",
-        image: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop",
-        description: "Feature-rich smartwatch with health tracking capabilities."
+        name: "Designer Collection 2",
+        image: "Images/SK2.jpeg",
+        description: "Sophisticated fashion item with modern styling."
     },
     {
-        name: "Bluetooth Speaker",
-        image: "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&h=300&fit=crop",
-        description: "Portable speaker with excellent sound quality and long battery life."
+        name: "Designer Collection 3",
+        image: "Images/SK3.jpeg",
+        description: "Trendy design perfect for contemporary fashion."
     },
     {
-        name: "Laptop Stand",
-        image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop",
-        description: "Adjustable laptop stand for better ergonomics and comfort."
-    },
-    {
-        name: "Wireless Mouse",
-        image: "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=400&h=300&fit=crop",
-        description: "Ergonomic wireless mouse with precision tracking."
-    },
-    {
-        name: "USB-C Hub",
-        image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=300&fit=crop",
-        description: "Multi-port USB-C hub for all your connectivity needs."
+        name: "Designer Collection 4",
+        image: "Images/SK4.jpeg",
+        description: "Luxurious piece crafted with attention to detail."
     }
 ];
 
